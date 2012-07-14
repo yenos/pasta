@@ -1,0 +1,57 @@
+PaSta - Password Statistics tools
+========================
+
+Copyright(c) 2012, Ronan Mouchoux (@yenos, <rmouchoux a gmail dot com>)
+
+Origin
+===============
+If found the contraction of Password and Statistics (=Pasta) fun, and decided that
+it deserve to be concreate.
+
+Install / Usage
+===============
+The app work with python, it require to install the jellyfish package <http://pypi.python.org/pypi/jellyfish/>.
+
+Usage is described when typing the -h or --help option:
+
+> ./pasta.py -h
+usage: pasta.py [-h] -f FILENAME -m MODE [-ms MODESEPARATOR] [-s SOURCE]
+                [-t TOP]
+
+Pasta (Password Statistics) is a tool design to produce statistics from a list
+of clear text password, or a list of user[separator]password.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILENAME, --filename FILENAME
+                        File's name where are stored passwords
+  -m MODE, --mode MODE  Define if your file contains only password (-m 0) or
+                        user and password (-m 1). If you choose mode 1, you
+                        have to define the user-password separator option -ms
+  -ms MODESEPARATOR, --modeseparator MODESEPARATOR
+                        [-m 1] Define the separator between the username and
+                        the password
+  -s SOURCE, --source SOURCE
+                        Name of the website from where are extract the
+                        passwords
+  -t TOP, --top TOP     Define the number of password include in the top list
+                        (default: 10)
+
+
+
+Version History
+===============
+
+Version 1 - Actual version. May evolve depending on new ideas or externals suggestions.
+
+Feedback
+=============
+
+I'm programming just for fun, so if you notice in the Pasta's code unoptimized
+algorithms or odds things: just tell me! 
+
+Licence
+=======
+This project released under the Creative Commons Attribution-Share Alike 2.0
+
+( http://creativecommons.org/licenses/by-sa/2.0/fr/ )
