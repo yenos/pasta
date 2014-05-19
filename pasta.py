@@ -37,8 +37,6 @@
 # pasta -f up.txt -m 1 -ms :  => analyse the username:password combo file, and print the top10 of most used password
 #
 # == About
-# Author:: Ronan Mouchoux (@yenos, <rmouchoux a gmail dot com>)
-# Copyright:: Copyright (c) Ronan Mouchoux 2012
 # Licence:: Creative Commons Attribution-Share Alike 2.0
 #
 
